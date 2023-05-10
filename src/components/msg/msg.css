@@ -82,3 +82,10 @@
   margin: 3vw;
 }
 
+@media screen and (max-width: 740px) {
+  .compose-msg input[type="text"]::placeholder {
+    font-size: 2rem;
+    opacity: 0.2;
+    text-align: center;
+  }  
+}

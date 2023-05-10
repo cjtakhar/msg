@@ -28,3 +28,26 @@ body {
   height: 100%;
   overflow: auto;
 }
+
+@media screen and (max-width: 740px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-container {
+    height: 7vh;
+    border: none;
+  }
+  
+  .msg-container {
+    height: 92vh;
+    margin-top: 1vh;
+  }
+  
+  .board-container {
+    height: 1vh;
+    border: none;
+  }
+}
