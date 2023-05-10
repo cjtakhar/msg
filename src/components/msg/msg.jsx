@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faUser } from "@fortawesome/free-solid-svg-icons";
 
 import './msg.css'
 
@@ -46,7 +46,7 @@ const Msg = () => {
             <div className="msg">
                 {messageList.map((message, index) => (
                     <div key={index} className="message" onClick={() => handleRemoveClick(index)}>
-                        {message}
+                        <FontAwesomeIcon className="icon-usr" icon={faUser} /> {message}
                     </div>
                 ))}
             </div>

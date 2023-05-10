@@ -54,11 +54,7 @@
   font-size: 1rem;
   opacity: 1;
   color: white;
-}
-
-.input-btn {
-  writing-mode: vertical-lr;
-  text-transform: uppercase;
+  text-indent: 1vw;
 }
 
 .msg {
@@ -69,7 +65,20 @@
   flex-direction: column;
   justify-content: space-between;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-indent: 1vw;
+}
+
+.message {
+  border: solid 1px white;
+}
+
+.message:hover {
+  background-color: black;
+  color: black;
+}
+
+.icon-usr {
+  margin: 3vw;
 }
 
