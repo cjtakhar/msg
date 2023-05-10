@@ -61,3 +61,15 @@
   text-transform: uppercase;
 }
 
+.msg {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 2rem;
+  text-indent: 1vw;
+}
+
