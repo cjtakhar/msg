@@ -8,22 +8,20 @@
 }
 
 .title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 20vh;
+  text-align: center;
+  margin-top: 5vh;
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
 }
 
 .nav-item {
   display: flex;
   flex-direction: column;
   margin-top: 5vh;
+  border: solid 1px;
+  transition: background-color 0.5s ease;
 }
 
 .nav-link {
@@ -38,7 +36,8 @@
 }
 
 .nav-link:hover {
-  color: teal;
+  background-color: teal;
+  color: white;
 }
 
 .navbar-brand {
