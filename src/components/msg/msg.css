@@ -1,0 +1,63 @@
+.compose-msg {
+    border: solid 1px slategray;
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.compose-msg input[type="text"] {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+.compose-msg input[type="text"]:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .compose-msg input[type="text"]::selection {
+    background-color: white;
+    color: black;
+  }
+
+  .compose-msg input[type="text"]::placeholder {
+    font-size: 4rem;
+    opacity: 0.2;
+  }  
+
+.compose-msg button {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+} 
+
+.msg-title {
+    margin-top: 5vh;
+    margin-left: 1vw;
+}
+
+.input-msg {
+  font-size: 1rem;
+  opacity: 1;
+  color: white;
+}
+
+.input-btn {
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+}
+
