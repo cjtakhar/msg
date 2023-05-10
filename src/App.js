@@ -5,9 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/msg'>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Dash />} />
+          <Route path="/msg" element={<Dash />} />
         </Routes>
       </BrowserRouter>
     </div>
