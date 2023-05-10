@@ -1,6 +1,7 @@
 body {
   background-color: black;
-  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -9,18 +10,21 @@ body {
   grid-gap: 0;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .navbar-container {
   border-right: solid 1px slategray;
-  height: 100vh;
+  height: 100%;
 }
 
 .msg-container {
-  height: 100vh;
+  height: 100%;
+  overflow: auto;
 }
 
 .board-container {
   border-left: solid 1px slategray;
-  height: 100vh;
+  height: 100%;
+  overflow: auto;
 }

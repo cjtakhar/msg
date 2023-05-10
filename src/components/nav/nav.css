@@ -4,6 +4,8 @@
   flex-direction: column;
   background-color: transparent;
   padding: 0;
+  border: solid 1px slategray;
+  height: 100vh;
 }
 
 .nav-item {
@@ -21,7 +23,7 @@
 }
 
 .nav-item .active {
-  color: #007bff;
+  color: teal;
 }
 
 .nav-link:hover {
