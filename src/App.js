@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/msg-board" element={<Dash />} />
+          <Route path="/msgboard" element={<Dash />} />
         </Routes>
       </BrowserRouter>
     </div>
