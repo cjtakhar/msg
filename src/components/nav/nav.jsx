@@ -42,7 +42,7 @@ const NavBar = () => {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="nav-item">
-            <Nav.Link as={Link} to="/logout">
+            <Nav.Link as={Link} to="/msg">
             <FontAwesomeIcon icon={faCheck} />
               <span className="link-text">Logout</span>
             </Nav.Link>
