@@ -23,7 +23,7 @@ const Login = () => {
             })
             const data = await response.json()
             if (data.success) {
-                window.location.href = '/msg/welcome'
+                window.location.href = '/welcome'
                 setErrorMessage('')
             } else {
                 setErrorMessage('Incorrect username or password')

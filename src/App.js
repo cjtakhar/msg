@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/msg" element={<Login />} />
-          <Route path="/msg/welcome" element={<Dash />} />
+          <Route path="/welcome" element={<Dash />} />
         </Routes>
       </BrowserRouter>
     </div>
